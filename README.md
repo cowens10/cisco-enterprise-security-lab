@@ -2,17 +2,17 @@
 
 **Cisco Packet Tracer | Network Engineering | Cybersecurity**
 
-## Overview
+## Project Overview
 
-A hands-on enterprise networking project focused on designing, configuring, securing, and troubleshooting a simulated corporate network using Cisco Packet Tracer.
+A hands-on networking and cybersecurity project focused on designing, configuring, securing, and troubleshooting a simulated enterprise network using Cisco Packet Tracer.
 
-The network supports Human Resources, Finance, IT, and Server environments, with dedicated VLANs, inter-VLAN routing, and a separate management network.
+The network supports Human Resources, Finance, IT, and Server environments through VLAN segmentation, inter-VLAN routing, and a dedicated management network.
 
-This project demonstrates practical networking skills while progressively implementing enterprise security controls.
+The project progressively introduces enterprise networking technologies and security controls, demonstrating practical skills in network administration, troubleshooting, and cybersecurity.
 
 ## Network Topology
 
-![Network Topology](Network%20Topology.png)
+![Enterprise Network Topology](screenshots/Network%20Topology.png)
 
 **Infrastructure:**
 - 1 Cisco PT8200 Router
@@ -34,7 +34,7 @@ This project demonstrates practical networking skills while progressively implem
 | 40 | Servers | 192.168.40.0/24 |
 | 99 | Management | 192.168.99.0/24 |
 
-The router provides inter-VLAN routing through 802.1Q subinterfaces, while the switches provide departmental connectivity and dedicated management interfaces.
+The router provides inter-VLAN routing using 802.1Q subinterfaces, while the switches provide departmental connectivity and dedicated management interfaces.
 
 ## Implementation & Progress
 
@@ -46,7 +46,7 @@ The router provides inter-VLAN routing through 802.1Q subinterfaces, while the s
 
 ### Milestone 2 — VLANs & Inter-VLAN Routing ✅
 
-- Configured five VLANs for departmental segmentation and network management.
+- Configured five VLANs for departmental segmentation and management.
 - Implemented 802.1Q trunking between switches and the router.
 - Configured router-on-a-stick for inter-VLAN communication.
 - Established VLAN 99 for dedicated switch management.
@@ -56,21 +56,21 @@ The router provides inter-VLAN routing through 802.1Q subinterfaces, while the s
 
 **VLAN Configuration**
 
-![VLAN Configuration](VLAN%20Configuration.png)
+![VLAN Configuration](screenshots/VLAN%20Configuration.png)
 
 **802.1Q Trunking**
 
-![Trunk Configuration](Trunk%20Config.png)
+![Trunk Configuration](screenshots/Trunk%20Config.png)
 
 **Inter-VLAN Connectivity**
 
-![Inter-VLAN Connectivity](inter-vlan-connectivity2.png)
+![Inter-VLAN Connectivity](screenshots/inter-vlan-connectivity2.png)
 
 **Management VLAN Connectivity**
 
-![Management Connectivity](management-connectivity.png)
+![Management Connectivity](screenshots/management-connectivity.png)
 
-Additional configuration screenshots are available in the repository.
+Additional configuration screenshots are available in the `screenshots/` directory.
 
 ## Troubleshooting Experience
 
